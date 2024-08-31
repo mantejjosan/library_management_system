@@ -1,6 +1,8 @@
 # Usage Instructions for the Library Management System (LMS)
 
-This section provides detailed instructions on how to use the Library Management System (LMS). It covers the key features, such as managing books and users, and navigating the system's dashboards.
+This section explains the overall concept of the Library Management System (LMS) and outlines the app's current functionalities and future potential. It highlights the roles of librarians and library members, detailing what the app achieves in its current form and what features will be added in the future. 
+
+*The next lesson will go into detail on how a librarian can efficiently use the desk and perform their various tasks within the system.*
 
 ## Concept Overview
 
@@ -22,9 +24,8 @@ As of now, the app is more backend-focused, giving the librarian all the access 
 
 ## Librarian: Accessing the Desk
 
-After logging in, the librarian has two options:
-
-1. **Browse as a Library Member**: The librarian can browse the library like any regular member. However, there are limited actions they can perform in this mode.
+1. The first step is to login to the app.*(see next chapter for details)*
+After logging in, the librarian has to switch to desk mode to access the dashboard.
 
 2. **Switch to Desk Mode**: To utilize their full capabilities, the librarian must switch to Desk mode. This can be done by:
    - Clicking on the hamburger menu icon in the top right.
@@ -42,7 +43,9 @@ These options will be discussed in detail in the next lesson.
 
 ## Library Member: Browsing the Library
 
-When the librarian is in the web app (not in Desk mode), they can only browse the books available, similar to a regular library member. The details of how to browse the library and view available books will be covered in the next lesson.
+1. First the library Member need to login to the app.
+2. After login, a library member can only browse the books available.
+   - The details of browsing the library and viewing available books will be covered in the next lesson.
 
 ---
 
