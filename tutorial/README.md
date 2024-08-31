@@ -1,4 +1,4 @@
-# Create Tutorial Based on These Distinctoin Guidelines
+# Create Tutorial Based on These Distinction Guidelines
 
 The tutorial should focus on how to create the Library Management System (LMS), while  guiding users through the process of creating a similar web app using Frappe.
 Showing them step-by-step how to replicate this project.
