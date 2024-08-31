@@ -1,7 +1,3 @@
-Here's a refined and comprehensive guide for configuring Frappe to manage your Library Management System (LMS), incorporating the correct field types and labels as you described:
-
----
-
 # Configuring Frappe for Library Management System
 
 ## 1. Creating Doctypes
@@ -244,3 +240,7 @@ Add the following code:
 ---
 
 This guide should help you effectively configure Frappe for managing your Library Management System. Feel free to make adjustments based on your specific requirements and preferences.
+
+[![Previous: Configuring the Frappe Environment](https://img.shields.io/badge/Previous-Setting%20Up%20the%20Frappe%20Environment-blue?style=for-the-badge)](setting-up-frappe-environment.md) 
+[![Next: Finalizing the Frappe Configuration](https://img.shields.io/badge/Next-Finalizing%20the%20Frappe%20Configuration-blue?style=for-the-badge)](finalizing-frappe-configuration.md)
+
