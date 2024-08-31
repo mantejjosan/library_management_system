@@ -22,3 +22,10 @@ The documentation should focus on how to use and understand the Library Manageme
 | **Support**            | Contact information for LMS support                | N/A                                                  |
 
 This table outlines the key differences between documentation (which focuses on the finished product) and the tutorial (which guides users on how to create that product).
+
+# Use Of Documentation.md
+We need to improve upon this by dividing this documentation into 10 pages(10 topics in table).
+In the first page give h1 as Overview/Introduction(completely tentative).
+And so on for every row of the above table.
+
+
