@@ -1,68 +1,50 @@
-# Usage Instructions
+# Usage Instructions for the Library Management System (LMS)
 
-**Usage Instructions for the Library Management System (LMS)**  
 This section provides detailed instructions on how to use the Library Management System (LMS). It covers the key features, such as managing books and users, and navigating the system's dashboards.
 
----
+## Concept Overview
 
-## 1. Login
+The Library Management System (LMS) is designed with two primary user roles in mind:
 
-The first step for all users is to log in to the Library Management System (LMS). Access the LMS login page and enter your credentials.
+- **Librarian**: The librarian has full access to the system, allowing them to manage the entire library digitally. This includes adding books, issuing them through transactions, and creating library members. Essentially, the librarian is the central figure in the LMS, responsible for maintaining the digital structure of the library.
 
-- **Librarian Login**: This allows access to the full range of librarian functionalities.
-- **Library Member Login**: This grants access to viewing the available books and journals.
+- **Library Member**: A library member has a more limited role, with the primary ability being to view the books available in the library. The system is currently designed to focus more on backend processes, making it easy for librarians to manage the library.
 
----
+As of now, the app is more backend-focused, giving the librarian all the access and an easy-to-manage digital setup of the library.
 
-## 2. Librarian Workflow
-
-Upon logging in, the librarian has the option to either browse as a normal library member or switch to the "Desk" mode to access librarian-specific functionalities.
-
-### Switching to Desk Mode:
-
-1. Click on the hamburger menu icon at the top right.
-2. Click on your profile photo.
-3. Select "Switch to Desk".
-
-### Librarian Powers:
-
-#### 1. Adding a Book (Article, Journal, etc.)
-
-- In "Desk" mode, navigate to the section for managing books.
-- Use the form provided to add a new book to the library, including details like title, author, ISBN, and status (e.g., issued or available).
-
-#### 2. Issuing a Book through Transactions
-
-- Access the "Transactions" module.
-- Fill out the necessary details in the transaction form, such as the library member's name, the book's title, and the type of transaction (issue or return).
-
-#### 3. Creating Library Members
-
-- Navigate to the "Library Members" section.
-- Use the form to create a new library member, entering details like the member's full name, email address, and phone number.
-
-### Guest Users and Library Members:
-
-- **Viewing Books**: A guest user or library member can browse the books available on the LMS website. However, to access the library’s app features, a user must log in.
-
-- **Becoming a Library Member**:
-  - Currently, there is no online provision for a person to become a library member. They must physically visit the library and request the librarian to add them as a member.
+> **Future Enhancements (Coming Soon):**
+> - [ ] Ability for library members to issue a book by filling out a form.
+> - [ ] Ability for the librarian to keep records of where books are physically located in the library, making it visible to members who fill the form to issue it.
+> - [ ] Automatic fine calculation for late returns.
+> - [ ] Ability for non-library members to fill out a request form to become a library member.
 
 ---
 
-## 3. Library Member Workflow
+## Librarian: Accessing the Desk
 
-### Viewing the Website:
+After logging in, the librarian has two options:
 
-- A library member can log in and view the books available in the library. This is the primary function available to them.
+1. **Browse as a Library Member**: The librarian can browse the library like any regular member. However, there are limited actions they can perform in this mode.
 
-### Requesting a Book:
+2. **Switch to Desk Mode**: To utilize their full capabilities, the librarian must switch to Desk mode. This can be done by:
+   - Clicking on the hamburger menu icon in the top right.
+   - Clicking on the profile photo.
+   - Selecting "Switch to Desk".
 
-- Library members do not have the option to request a book online. They must visit the library in person to request the librarian to issue a book.
+Once in Desk mode, the librarian can access the following key features:
+- Adding books (articles, journals, etc.)
+- Issuing books through transactions
+- Creating library members
+
+These options will be discussed in detail in the next lesson.
 
 ---
 
-### Navigation
+## Library Member: Browsing the Library
 
-[![Previous: Configuration](https://img.shields.io/badge/Previous-Configuration-blue?style=for-the-badge)](configuration.md)  
-[![Next: Feature Details](https://img.shields.io/badge/Next-Feature%20Details-blue?style=for-the-badge)](feature-details.md)
+When the librarian is in the web app (not in Desk mode), they can only browse the books available, similar to a regular library member. The details of how to browse the library and view available books will be covered in the next lesson.
+
+---
+
+[![Previous: Configuration](https://img.shields.io/badge/Previous-Configuration-blue?style=for-the-badge)](configuration.md)
+[![Next: Librarian Features](https://img.shields.io/badge/Next-Librarian%20Features-blue?style=for-the-badge)](librarian-features.md)
