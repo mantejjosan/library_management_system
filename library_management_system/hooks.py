@@ -242,3 +242,11 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+# Define custom API endpoints
+app_routes = [
+    {
+        "route": "/api/method/library_management_system.api.webhook_handler",
+        "methods": ["POST"]
+    }
+]
