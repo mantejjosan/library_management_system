@@ -1,0 +1,27 @@
+name: Deploy on PR Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # No need to change this
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.PR }}
+
+    - name: Add server to known hosts
+      run: |
+        ssh-keyscan -H exp.gndec.ac.in >> ~/.ssh/known_hosts
+
+    - name: Deploy to Server
+      run: |
+        ssh -o StrictHostKeyChecking=no frappe@exp.gndec.ac.in "cd /home/frappe/frappe-bench && git -C apps/library_management_system pull origin main && bench update"

@@ -1,0 +1,1 @@
+My name is Jasdeep Singh. I am currently pursueing my B. Tech in IT from GNDEC, Gill Park, Ludhiana. I have keen interest in coding, videography and video editing. I have basic experience in HTML, CSS, Python, C++ and Linux Commands. In video editting I have experience in Adobe Premiere Pro and After Effects version 2023.
