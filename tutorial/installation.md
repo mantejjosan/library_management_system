@@ -87,3 +87,17 @@ Now you can access your Frappe site by visiting http://lms.local:8000 in your we
 You have now set up the Frappe development environment and created a new site for your Library Management System (LMS) project. With Frappe and all dependencies installed, you’re ready to start developing features like user roles, dashboards, forms, and more for your LMS.
 
 Move on to the next section to learn about configuring your project and building specific features.
+
+## Alternate for Nano editor:
+
+### Why Use Vim Over Nano?
+**Efficiency**: Vim is designed to be very fast and efficient for text editing, especially when you get accustomed to its commands.
+**Customization**: Vim allows extensive customization through its configuration files (.vimrc), enabling you to tailor the editor to your needs.
+**Advanced Features**: Vim provides powerful features like multi-level undo, search and replace with regular expressions, macros, plugins, and more, which are not available in simpler editors like Nano.
+**Widely Available**: Vim is installed by default on most Unix-like systems, making it highly accessible.
+
+### Installation of Vim
+
+
+   
+
