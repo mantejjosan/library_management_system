@@ -1,32 +1,46 @@
-{%  extends "templates/web.html" %}
+{% extends "templates/web.html" %}
 
 {% block page_content %}
-
 <div class="py-20 row">
-<div class="col-sm-2">
-<img alt="{{ title }}" src="{{ image }}"/>
+  <div class="col-sm-2">
+    <img 
+      alt="{{ title }}" 
+      src="{{ image }}" 
+      srcset="{{ image }} 1x, {{ image_large }} 2x" 
+      sizes="(max-width: 768px) 100vw, 50vw" 
+      loading="lazy" 
+    />
+  </div>
+  <div class="col">
+    <h1>{{ title }}</h1>
+    <p class="lead">By {{ author }}</p>
+    <div>
+      {%- if status == 'Available' -%}
+        <span class="badge badge-success">Available</span>
+      {%- elif status == 'Issued' -%}
+        <span class="badge badge-primary">Issued</span>
+      {%- endif -%}
+    </div>
+    <div class="mt-4">
+      <div>Publisher: <strong>{{ publisher }}</strong></div>
+      <div>ISBN: <strong>{{ isbn }}</strong></div>
+    </div>
+    <p>{{ description }}</p>
+  </div>
 </div>
-<div class="col">
-<h1>{{ title }}</h1>
-<p class="lead">By {{ author }}</p>
-<div>
 
-            {%- if status == 'Available' -%}
-
-            <span class="badge badge-success">Available</span>
-            {%- elif status == 'Issued' -%}
-
-            <span class="badge badge-primary">Issued</span>
-
-            {%- endif -%}
-
-        </div>
-<div class="mt-4">
-<div>Publisher: <strong>{{ publisher }}</strong></div>
-<div>ISBN: <strong>{{ isbn }}</strong></div>
-</div>
-<p>{{ description }}</p>
-</div>
-</div>
+<!-- Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "{{ title }}",
+  "author": "{{ author }}",
+  "publisher": "{{ publisher }}",
+  "isbn": "{{ isbn }}",
+  "description": "{{ description }}",
+  "image": "{{ image }}"
+}
+</script>
 
 {% endblock %}
