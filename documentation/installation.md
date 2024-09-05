@@ -1,6 +1,17 @@
 # Installation of the Library Management System (LMS)
 
-In this section, you will find detailed instructions on how to install and configure the Library Management System (LMS) on your server. Follow these steps to get LMS up and running.
+In this section, you will find detailed instructions on how to install and configure the Library Management System (LMS) on your server. However, please note that the LMS is a web-based app that can be used directly online without installation. To explore the LMS, you can visit the following URL:
+
+- **URL**: [https://hsrai.ukiericoncretecongress.com](https://hsrai.ukiericoncretecongress.com)
+- **Library Member Login**:  
+  - **Email**: `librarymember@gd.in`  
+  - **Password**: `LibraryMember.GD/2`
+
+You can log in as a library member using the above credentials. This grants read only access to the user. For editing access you may need to contact the creator or have this app installed locally as described below.
+
+## For Development
+
+To further develop or customize the LMS, follow the steps below to install it on your local or server environment.
 
 ## Prerequisites
 
