@@ -90,13 +90,31 @@ Move on to the next section to learn about configuring your project and building
 
 ## Alternate for Nano editor:
 
+### What is Vim?
+Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the older `vi` editor and is widely used in the development community for coding, scripting, and editing configuration files.
+
 ### Why Use Vim Over Nano?
 **Efficiency**: Vim is designed to be very fast and efficient for text editing, especially when you get accustomed to its commands.
 **Customization**: Vim allows extensive customization through its configuration files (.vimrc), enabling you to tailor the editor to your needs.
 **Advanced Features**: Vim provides powerful features like multi-level undo, search and replace with regular expressions, macros, plugins, and more, which are not available in simpler editors like Nano.
 **Widely Available**: Vim is installed by default on most Unix-like systems, making it highly accessible.
 
-### Installation of Vim
+### Installation of Vim:
+
+Step 1: Install Required Dependencies
+Run the following command to update your package list and install required dependencies, including **Vim**:
+```bash
+sudo apt update
+```
+
+Install Required Dependencies (including Vim):
+```bash
+ sudo apt install git curl python3-dev python3-pip redis-server mariadb-server libmariadb-dev libffi-dev libssl-dev wkhtmltopdf xvfb vim -y
+```
+
+
+
+
 
 
    
